@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Data / generated outputs
+*.parquet
+*.npy
+*.npz
+outputs/
+build/
+dist/
+
+# Embedded / PlatformIO
+.pio/
+.vscode/
+*.elf
+*.hex
+
+# CAD / simulation temporary files
+*.raw
+*.log
+*.bak
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Secrets / local config
+secrets.*
+config.local.*
